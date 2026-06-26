@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>WURCS-Substitution</groupId>
+  <artifactId>WURCS-Substitution</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+  	<repository>
+        <id>WURCSFramework-gitlab-maven</id>
+        <url>https://gitlab.com/api/v4/projects/17725126/packages/maven</url>
+    </repository></repositories>
+  <dependencies>
+  		<!-- GLIC -->
+        <!-- https://gitlab.com/api/v4/projects/17725126/packages/maven -->
+        <dependency>
+            <groupId>org.glycoinfo</groupId>
+            <artifactId>wurcsframework</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+  </dependencies>
+</project>
